@@ -1,2 +1,3 @@
 This is Firebase Application example
 Created by Kiran Kumar
+This text is updted by GIT UI
