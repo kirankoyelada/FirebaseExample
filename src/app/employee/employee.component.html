@@ -1,0 +1,9 @@
+<md-card *ngFor="let employee of empList | async">
+  <md-card-title>
+   Employee Name :- {{employee.EName}}<br>
+   Employee Address:-{{employee.Address}}<br>
+   Employee Department:- {{employee.Dept}}<br>
+  </md-card-title>
+  <md-card-content>
+  </md-card-content>
+</md-card>

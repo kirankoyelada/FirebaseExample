@@ -1,0 +1,26 @@
+<md-toolbar color="primary">
+  <span>Routing Example</span>
+  <md-toolbar-row>
+    <a routerLink='/home' md-button>Home</a>
+    <a routerLink='/employee' md-button>Employee</a>
+    <a routerLink='/dept' md-button>Department</a>
+    <a routerLink='/Location' md-button>Location</a>
+    <a routerLink='/ImageDisplay' md-button>Horriable Pics</a>
+  </md-toolbar-row>
+</md-toolbar><br><br>
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side">
+    <button md-mini-fab color="primary">Save</button>
+  </md-sidenav>
+  <md-card class="example-card">
+    <md-card-title>This is router example</md-card-title>
+    <md-card-subtitle>This is power by Kiran Kumar</md-card-subtitle>
+    <md-card-content>
+      <router-outlet></router-outlet>
+    </md-card-content>
+    <md-card-actions>
+      <button md-raised-button>Edit</button>
+      <button md-fab>Delete</button>
+    </md-card-actions>
+  </md-card>
+</md-sidenav-container>
