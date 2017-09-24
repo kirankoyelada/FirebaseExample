@@ -1,3 +1,7 @@
 This is Firebase Application example
 Created by Kiran Kumar
-This text is updted by GIT UI
+Before using this application please configure your application on firebase.console
+Once done and take config settings 
+Put under environment and environment.prod files to make this app work
+
+Thanks
